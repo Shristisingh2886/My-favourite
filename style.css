@@ -1,0 +1,67 @@
+body {
+    text-align: center;
+}
+
+.welcome {
+    background-color: #FF4081;
+    margin: 8px auto;
+}
+
+img {
+    width: 450px;
+    height: 400px;
+    border-radius: 50%;
+}
+
+#about {
+    background-color: #F50057;
+    font-size: 18px;
+}
+
+.line {
+    height: 6px;
+    width: 250px;
+    background-color: #212121;
+    margin: 8px auto;
+}
+
+h1 {
+    text-shadow: 1px 2px #616161;
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 25px;
+    text-shadow: 1px 2px #424242;
+}
+
+.menu {
+    list-style: none;
+    font-family: fantasy;
+    position: absolute;
+    top: 20px;
+    right: 2px;
+    cursor: pointer;
+    height:10px;
+    width: 369px;
+}
+
+.link {
+    float: left;
+    color: beige;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-family: 'IM Fell DW Pica', cursive;
+    font-size: 15px;
+    background-color: blueviolet;
+    
+}
+
+.link:hover {
+    background-color: darksalmon;
+}
+html{
+    scroll-behavior: smooth;
+}
