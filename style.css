@@ -20,7 +20,20 @@ img {
 
 .line {
     height: 6px;
-    width: 250px;
+    width: 300px;
+    background-color: #212121;
+    margin: 8px auto;
+}
+
+h3 {
+    font-size: 20px;
+    color: black;
+    text-shadow: 1px 2px #424242;
+}
+
+.lines {
+    height: 6px;
+    width: 150px;
     background-color: #212121;
     margin: 8px auto;
 }
@@ -35,6 +48,11 @@ h2 {
     text-shadow: 1px 2px #424242;
 }
 
+h5 {
+    font-size: 15px;
+    color: black;
+}
+
 .menu {
     list-style: none;
     font-family: fantasy;
@@ -42,8 +60,12 @@ h2 {
     top: 20px;
     right: 2px;
     cursor: pointer;
-    height:10px;
+    height: 10px;
     width: 369px;
+}
+
+#rating {
+    background-color: darksalmon;
 }
 
 .link {
@@ -55,13 +77,21 @@ h2 {
     padding-left: 5px;
     font-family: 'IM Fell DW Pica', cursive;
     font-size: 15px;
-    background-color: blueviolet;
-    
 }
 
 .link:hover {
     background-color: darksalmon;
 }
-html{
+
+html {
     scroll-behavior: smooth;
+}
+
+#inspiration {
+    background-color: coral;
+}
+
+.jkrowling {
+    height: 200px;
+    width: 250px;
 }
