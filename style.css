@@ -53,15 +53,18 @@ h5 {
     color: black;
 }
 
+
 .menu {
     list-style: none;
     font-family: fantasy;
-    position: absolute;
-    top: 20px;
-    right: 2px;
+    position: fixed;
+    top: 0px;
     cursor: pointer;
-    height: 10px;
-    width: 369px;
+    height: 8px auto;
+    width: 100%;
+    z-index: 10;
+    margin-top: 0px;
+    background-color: black;
 }
 
 #rating {
@@ -69,19 +72,19 @@ h5 {
 }
 
 .link {
-    float: left;
     color: beige;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 5px;
-    padding-left: 5px;
-    font-family: 'IM Fell DW Pica', cursive;
-    font-size: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-family: sans-serif;
+    font-size: 20px;
+    display: inline;
+    color:floralwhite !important;
+}
+.link:hover {
+    font-size: 25px;
+    text-decoration: underline;
 }
 
-.link:hover {
-    background-color: darksalmon;
-}
 
 html {
     scroll-behavior: smooth;
@@ -100,4 +103,20 @@ img{
 }
 img:hover{
     transform: scale(0.9);
+}
+#contact {
+    background-color:bisque;
+}
+
+.Email a {
+    Color: black;
+    text-shadow: none;
+}
+
+#contact iframe {
+    width: 100%;
+}
+
+.Email h3 {
+    display: inline;
 }
